@@ -1,0 +1,60 @@
+.head{
+    display:flex;
+    gap:40px;
+    color:white;
+    background-image: url('coffee.jpg');
+    height:300px;
+    width:100%;
+    background-size:100% 300px;
+    background-repeat: no-repeat;
+}
+.brew{
+    margin-right:1000px;
+    margin-left:20px;
+}
+h1{
+    text-align:center;
+}
+.coffee{
+    display:flex;
+    column-gap:30px;
+    margin-top: 30px;
+    justify-content: center;
+   
+   
+}
+.cof{
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.1);
+    padding:10px;
+}
+.break{
+    display:flex;
+    column-gap:30px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.fast{
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.1);
+    padding:10px;
+}
+.about{
+    width:400px;
+    margin-left: 600px;
+    background-color: aliceblue;
+    padding:20px;
+   
+}
+.contact{
+    width:400px;
+    margin-left: 600px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.cof:hover{
+    transform: scale(1.1);
+}
+.break:hover{
+    transform: scale(1.1);
+}
